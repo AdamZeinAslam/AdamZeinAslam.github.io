@@ -1,1 +1,53 @@
+/* =========================
+   GLOBAL
+   ========================= */
 
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+
+/* =========================
+   SIDEBAR
+   ========================= */
+
+.sidebar {
+  width: 300px;
+}
+
+.sidebar h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.profile-image {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.role {
+  margin-top: 20px;
+  line-height: 1.7;
+}
+
+.experience {
+  margin-top: 35px;
+}
+
+.experience h2 {
+  font-size: 18px;
+}
+
+.experience-item {
+  margin-bottom: 20px;
+}
+
+.experience-item h3 {
+  margin-bottom: 5px;
+}
+
+.experience-item p {
+  margin: 3px 0;
+}
