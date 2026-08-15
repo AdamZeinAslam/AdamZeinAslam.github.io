@@ -149,6 +149,33 @@ body {
   font-size: 13px !important;
 }
 
+/* =========================
+   EDUCATION
+   ========================= */
+
+.education-details {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  margin-top: 4px;
+}
+
+.education-details span {
+  font-size: 14px;
+  color: #666666;
+}
+
+.education-year {
+  white-space: nowrap;
+  color: #888888 !important;
+}
+
+.gpa {
+  margin-top: 5px !important;
+  font-size: 13px !important;
+  color: #888888 !important;
+}
 
 /* =========================
    SKILLS
