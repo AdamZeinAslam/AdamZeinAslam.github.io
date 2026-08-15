@@ -7,187 +7,223 @@
 
   <title>{{ site.title }}</title>
 
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link
+    rel="stylesheet"
+    href="{{ '/assets/css/style.css' | relative_url }}"
+  >
 </head>
 
 <body>
 
   <div class="portfolio-container">
 
+    <!-- =========================
+         LEFT SIDEBAR
+         ========================= -->
+
     <aside class="sidebar">
 
-  <!-- NAME -->
+      <!-- NAME -->
 
-  <h1>Adam Zein Aslam</h1>
-
-
-  <!-- PROFILE PHOTO -->
-
-  <img
-    src="{{ '/assets/img/WhatsApp Image 2025-03-27 at 23.49.33_77e02d5f.jpg' | relative_url }}"
-    alt="Adam Zein Aslam"
-    class="profile-image"
-  >
+      <h1 class="profile-name">
+        Adam Zein Aslam
+      </h1>
 
 
-  <!-- SHORT DESCRIPTION -->
+      <!-- PROFILE PHOTO -->
 
-  <div class="profile-description">
-
-    <p>
-      Information Systems student focused on
-      Data Analytics, Data Engineering, and Data Science.
-    </p>
-
-  </div>
-
-
-  <!-- EXPERIENCE -->
-
-  <section class="sidebar-section">
-
-    <h2>Experience</h2>
-
-    <div class="experience-item">
-
-      <h3>Treasurer</h3>
-
-      <p class="organization">
-        Information Systems Student Association
-      </p>
-
-      <p class="date">
-        2025 – Present
-      </p>
-
-    </div>
-
-  </section>
-
-
-  <!-- EDUCATION -->
-
-  <section class="sidebar-section">
-
-    <h2>Education</h2>
-
-    <div class="education-item">
-
-     <section class="sidebar-section">
-
-  <h2>Education</h2>
-
-  <div class="education-item">
-
-    <h3>Kalbis University</h3>
-
-    <div class="education-details">
-
-      <span>B.Sc. Information Systems</span>
-
-      <span class="education-year">2024 – 2028</span>
-
-    </div>
-
-    <p class="gpa">
-      GPA: 3.90
-    </p>
-
-  </div>
-
-</section>
-
-
-  <!-- SKILLS -->
-
-  <section class="sidebar-section">
-
-    <h2>Skills</h2>
-
-    <p>
-      Python · SQL · PostgreSQL · BigQuery ·
-      Power BI · Excel · Git · GCP ·
-      PyTorch · Scikit-learn
-    </p>
-
-  </section>
-
-
- <!-- SOCIAL LINKS -->
-
-<section class="sidebar-section social-section">
-
-  <h2>Links</h2>
-
-  <div class="social-links">
-
-    <!-- GitHub -->
-    <a
-      href="https://github.com/AdamZeinAslam"
-      target="_blank"
-      rel="noopener noreferrer"
-      aria-label="GitHub"
-    >
       <img
-        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-        alt="GitHub"
+        src="{{ '/assets/img/WhatsApp Image 2025-03-27 at 23.49.33_77e02d5f.jpg' | relative_url }}"
+        alt="Adam Zein Aslam"
+        class="profile-image"
       >
-    </a>
 
 
-    <!-- LinkedIn -->
-    <a
-      href="https://www.linkedin.com/"
-      target="_blank"
-      rel="noopener noreferrer"
-      aria-label="LinkedIn"
-    >
-      <img
-        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
-        alt="LinkedIn"
-      >
-    </a>
+      <!-- SHORT DESCRIPTION -->
+
+      <div class="profile-description">
+
+        <p>
+          Information Systems student focused on
+          Data Analytics, Data Engineering, and Data Science.
+        </p>
+
+      </div>
 
 
-    <!-- Gmail -->
-    <a
-      href="mailto:YOUR_EMAIL@gmail.com"
-      aria-label="Email"
-    >
-      <img
-        src="https://cdn.simpleicons.org/gmail"
-        alt="Gmail"
-      >
-    </a>
+      <!-- =========================
+           EXPERIENCE
+           ========================= -->
+
+      <section class="sidebar-section">
+
+        <h2>Experience</h2>
+
+        <div class="experience-item">
+
+          <h3>Treasurer</h3>
+
+          <p class="organization">
+            Information Systems Student Association
+          </p>
+
+          <p class="date">
+            2025 – Present
+          </p>
+
+        </div>
+
+      </section>
 
 
-    <!-- Phone -->
-    <a
-      href="tel:+62XXXXXXXXXX"
-      aria-label="Phone"
-    >
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 24 24"
-        aria-hidden="true"
-      >
-        <path
-          d="M6.62 10.79a15.46 15.46 0 0 0 6.59 6.59l2.2-2.2
-          a1 1 0 0 1 1.01-.24c1.12.37 2.33.57 3.58.57
-          a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1
-          C10.72 21 3 13.28 3 4
-          a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1
-          c0 1.25.2 2.46.57 3.58
-          a1 1 0 0 1-.24 1.01l-2.21 2.2z"
-        />
-      </svg>
-    </a>
+      <!-- =========================
+           EDUCATION
+           ========================= -->
 
-  </div>
+      <section class="sidebar-section">
 
-</section>
-</aside>
+        <h2>Education</h2>
 
+        <div class="education-item">
+
+          <h3>Kalbis University</h3>
+
+          <div class="education-details">
+
+            <span class="degree">
+              B.Sc. Information Systems
+            </span>
+
+            <span class="education-year">
+              2024 – 2028
+            </span>
+
+          </div>
+
+          <p class="gpa">
+            GPA: 3.90
+          </p>
+
+        </div>
+
+      </section>
+
+
+      <!-- =========================
+           SKILLS
+           ========================= -->
+
+      <section class="sidebar-section">
+
+        <h2>Skills</h2>
+
+        <p class="skills-text">
+          Python · SQL · PostgreSQL · BigQuery ·
+          Power BI · Excel · Git · GCP ·
+          PyTorch · Scikit-learn
+        </p>
+
+      </section>
+
+
+      <!-- =========================
+           LINKS
+           ========================= -->
+
+      <section class="sidebar-section social-section">
+
+        <h2>Links</h2>
+
+        <div class="social-links">
+
+
+          <!-- GitHub -->
+
+          <a
+            href="https://github.com/AdamZeinAslam"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="GitHub"
+          >
+
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+              alt="GitHub"
+            >
+
+          </a>
+
+
+          <!-- LinkedIn -->
+
+          <a
+            href="https://www.linkedin.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn"
+          >
+
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
+              alt="LinkedIn"
+            >
+
+          </a>
+
+
+          <!-- Gmail -->
+
+          <a
+            href="mailto:YOUR_EMAIL@gmail.com"
+            aria-label="Email"
+          >
+
+            <img
+              src="https://cdn.simpleicons.org/gmail"
+              alt="Gmail"
+            >
+
+          </a>
+
+
+          <!-- Phone -->
+
+          <a
+            href="tel:+62XXXXXXXXXX"
+            aria-label="Phone"
+            class="phone-link"
+          >
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+            >
+
+              <path
+                d="M6.62 10.79a15.46 15.46 0 0 0 6.59 6.59l2.2-2.2
+                a1 1 0 0 1 1.01-.24c1.12.37 2.33.57 3.58.57
+                a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1
+                C10.72 21 3 13.28 3 4
+                a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1
+                c0 1.25.2 2.46.57 3.58
+                a1 1 0 0 1-.24 1.01l-2.21 2.2z"
+              />
+
+            </svg>
+
+          </a>
+
+        </div>
+
+      </section>
+
+    </aside>
+
+
+    <!-- =========================
+         RIGHT CONTENT
+         ========================= -->
 
     <main class="main-content">
 
