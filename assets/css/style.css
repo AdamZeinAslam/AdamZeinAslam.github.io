@@ -17,14 +17,27 @@ body {
   line-height: 1.6;
 }
 
+
+/* =========================
+   MAIN LAYOUT
+   ========================= */
+
 .portfolio-container {
   max-width: 1100px;
   margin: 0 auto;
+
   display: grid;
   grid-template-columns: 320px 1fr;
+
   gap: 70px;
+
   padding: 50px 30px;
 }
+
+
+/* =========================
+   SIDEBAR
+   ========================= */
 
 .sidebar {
   position: sticky;
@@ -32,88 +45,188 @@ body {
   align-self: start;
 }
 
+
+/* =========================
+   NAME
+   ========================= */
+
 .sidebar h1 {
   margin: 0 0 25px 0;
+
   font-size: 36px;
   line-height: 1.2;
+
   color: #222222;
 }
+
+
+/* =========================
+   PROFILE IMAGE
+   ========================= */
 
 .profile-image {
   width: 250px;
   height: 250px;
+
   object-fit: cover;
+
   border-radius: 50%;
+
   display: block;
+
   margin-bottom: 25px;
 }
 
-.roles {
+
+/* =========================
+   PROFILE DESCRIPTION
+   ========================= */
+
+.profile-description {
+  max-width: 290px;
+
   margin-bottom: 35px;
 }
 
-.roles p {
-  margin: 2px 0;
-  font-size: 17px;
-  font-weight: 500;
-  color: #555555;
+.profile-description p {
+  margin: 0;
+
+  font-size: 15px;
+  line-height: 1.6;
+
+  color: #666666;
 }
+
+
+/* =========================
+   SIDEBAR SECTIONS
+   ========================= */
 
 .sidebar-section {
   margin-top: 30px;
 }
 
 .sidebar-section h2 {
-  margin-bottom: 12px;
+  margin: 0 0 12px 0;
+
   font-size: 17px;
+
   text-transform: uppercase;
+
   letter-spacing: 1px;
+
   color: #222222;
 }
+
+
+/* =========================
+   EXPERIENCE
+   ========================= */
 
 .experience-item h3,
 .education-item h3 {
   margin: 0;
+
   font-size: 16px;
+
   color: #333333;
 }
 
 .experience-item p,
 .education-item p {
   margin: 4px 0;
+
   font-size: 14px;
+
   color: #666666;
+}
+
+.organization {
+  font-weight: 500;
 }
 
 .date {
   color: #888888 !important;
+
+  font-size: 13px !important;
 }
 
+
+/* =========================
+   SKILLS
+   ========================= */
+
 .sidebar-section > p {
+  margin: 0;
+
   font-size: 14px;
+
+  line-height: 1.7;
+
   color: #666666;
 }
 
-.sidebar a {
-  color: #555555;
-  text-decoration: none;
-  font-size: 14px;
+
+/* =========================
+   SOCIAL LINKS
+   ========================= */
+
+.social-links {
+  display: flex;
+
+  align-items: center;
+
+  gap: 18px;
+
+  margin-top: 10px;
 }
 
-.sidebar a:hover {
-  color: #000000;
-  text-decoration: underline;
+.social-links a {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  width: 28px;
+  height: 28px;
+
+  text-decoration: none;
 }
+
+.social-links img {
+  width: 24px;
+  height: 24px;
+
+  display: block;
+
+  transition: transform 0.2s ease;
+}
+
+.social-links a:hover img {
+  transform: translateY(-3px);
+}
+
+
+/* =========================
+   MAIN CONTENT
+   ========================= */
 
 .main-content {
   min-width: 0;
 }
 
+
+/* =========================
+   MOBILE
+   ========================= */
+
 @media (max-width: 800px) {
 
   .portfolio-container {
     grid-template-columns: 1fr;
+
     gap: 40px;
+
     padding: 40px 20px;
   }
 
