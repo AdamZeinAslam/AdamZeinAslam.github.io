@@ -366,19 +366,22 @@ body {
    PROJECT HEADER
    ========================================================= */
 
-.projects-header {
-  margin: 5px 0 42px 0;
+.projects-section .projects-header {
+  margin: 5px 0 42px 0 !important;
 }
 
-.section-label {
-  margin: 0;
+.projects-section .section-label {
+  margin: 0 !important;
 
-  font-size: 80px;
-  font-weight: 700;
+  font-size: 26px !important;
 
-  letter-spacing: -0.3px;
+  font-weight: 700 !important;
 
-  color: #333333;
+  line-height: 1.3 !important;
+
+  letter-spacing: -0.3px !important;
+
+  color: #333333 !important;
 }
 
 /* =========================================================
