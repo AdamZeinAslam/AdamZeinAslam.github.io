@@ -590,4 +590,22 @@ body {
   .education-details {
     gap: 20px;
   }
+
+
+  /* PROJECTS */
+
+  .project-card {
+    grid-template-columns: 25px minmax(0, 1fr);
+
+    column-gap: 10px;
+  }
+
+  .project-content h3 {
+    font-size: 20px;
+  }
+
+  .project-image {
+    max-height: 400px;
+  }
+
 }
