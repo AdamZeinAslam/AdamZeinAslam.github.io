@@ -367,7 +367,7 @@ body {
    ========================================================= */
 
 .projects-header {
-  margin: 5px 0 60px 0;
+  margin: 5px 0 38px 0;
 }
 
 .section-label {
@@ -390,15 +390,19 @@ body {
 .project-card {
   display: grid;
 
-  grid-template-columns: 30px minmax(0, 1fr);
+  /*
+   * Small column for project number
+   * so the number stays close to the title.
+   */
+  grid-template-columns: 20px minmax(0, 1fr);
 
-  column-gap: 15px;
+  column-gap: 6px;
 
-  padding-bottom: 45px;
+  padding-bottom: 42px;
 
-  margin-bottom: 45px;
+  margin-bottom: 42px;
 
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e2e2e2;
 }
 
 
@@ -407,21 +411,25 @@ body {
    ========================================================= */
 
 .project-number {
-  padding-top: 3px;
+  padding-top: 4px;
 
   font-size: 12px;
 
-  font-weight: 600;
+  font-weight: 500;
 
-  color: #999999;
+  color: #888888;
 
-  letter-spacing: 0.5px;
+  letter-spacing: 0;
 }
 
 
 /* =========================================================
    PROJECT CONTENT
    ========================================================= */
+
+.project-content {
+  min-width: 0;
+}
 
 .project-content h3 {
   margin: 0;
@@ -441,13 +449,15 @@ body {
    ========================================================= */
 
 .project-category {
-  margin: 4px 0 12px 0;
+  margin: 3px 0 13px 0;
 
   font-size: 13px;
 
   font-weight: 500;
 
-  color: #888888;
+  line-height: 1.4;
+
+  color: #666666;
 }
 
 
@@ -458,13 +468,13 @@ body {
 .project-description {
   max-width: 620px;
 
-  margin: 0 0 20px 0;
+  margin: 0 0 18px 0;
 
   font-size: 14px;
 
   line-height: 1.7;
 
-  color: #666666;
+  color: #555555;
 }
 
 
@@ -475,17 +485,51 @@ body {
 .project-image {
   display: block;
 
-  width: 70%;
+  /*
+   * Fixed maximum width.
+   * Prevents the image from becoming too dominant.
+   */
+  width: 560px;
+
+  max-width: 100%;
 
   height: auto;
 
-  max-height: 380px;
+  max-height: 330px;
 
   object-fit: contain;
 
-  margin: 18px 0;
+  margin: 16px 0 18px 0;
 
   border: 1px solid #e0e0e0;
+}
+
+
+/* =========================================================
+   PROJECT IMAGE PLACEHOLDER
+   ========================================================= */
+
+.project-image-placeholder {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  width: 560px;
+
+  max-width: 100%;
+
+  height: 300px;
+
+  margin: 16px 0 18px 0;
+
+  background: #f7f7f7;
+
+  border: 1px solid #e0e0e0;
+
+  color: #999999;
+
+  font-size: 13px;
 }
 
 
@@ -500,7 +544,7 @@ body {
 
   gap: 7px;
 
-  margin: 15px 0;
+  margin: 12px 0 16px 0;
 }
 
 .project-tags span {
@@ -533,7 +577,7 @@ body {
 
   gap: 7px;
 
-  margin-top: 6px;
+  margin-top: 2px;
 
   font-size: 13px;
 
@@ -551,12 +595,13 @@ body {
 }
 
 .project-link:hover {
-  color: #000000;
+  color: #222222;
 }
 
 .project-link:hover span {
   transform: translateX(4px);
 }
+
 
 /* =========================================================
    MOBILE
@@ -573,6 +618,9 @@ body {
 
     padding: 40px 25px;
   }
+
+
+  /* SIDEBAR */
 
   .sidebar {
     position: static;
@@ -595,14 +643,44 @@ body {
   /* PROJECTS */
 
   .project-card {
-    grid-template-columns: 25px minmax(0, 1fr);
+    grid-template-columns: 20px minmax(0, 1fr);
 
-    column-gap: 10px;
+    column-gap: 6px;
+
+    padding-bottom: 35px;
+
+    margin-bottom: 35px;
   }
 
   .project-content h3 {
     font-size: 20px;
   }
+
+  .project-description {
+    font-size: 13px;
+  }
+
+  .project-image {
+    width: 100%;
+
+    max-height: 300px;
+  }
+
+  .project-image-placeholder {
+    width: 100%;
+
+    height: 240px;
+  }
+
+  .project-tags {
+    gap: 6px;
+  }
+
+  .project-link {
+    font-size: 13px;
+  }
+
+}
 
   .project-image {
     max-height: 400px;
