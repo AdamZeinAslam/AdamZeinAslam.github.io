@@ -9,7 +9,7 @@ layout: default
        ========================= -->
 
   <div class="projects-header">
-    <p class="section-label">SELECTED PROJECTS</p>
+    <p class="section-label">PROJECTS</p>
   </div>
 
 
