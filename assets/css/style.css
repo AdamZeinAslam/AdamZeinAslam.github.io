@@ -353,7 +353,210 @@ body {
 .main-content {
   min-width: 0;
 }
+/* =========================================================
+   PROJECTS
+   ========================================================= */
 
+.projects-section {
+  width: 100%;
+}
+
+
+/* =========================================================
+   PROJECT HEADER
+   ========================================================= */
+
+.projects-header {
+  margin: 5px 0 35px 0;
+}
+
+.section-label {
+  margin: 0;
+
+  font-size: 12px;
+
+  font-weight: 700;
+
+  letter-spacing: 1.5px;
+
+  color: #888888;
+}
+
+
+/* =========================================================
+   PROJECT CARD
+   ========================================================= */
+
+.project-card {
+  display: grid;
+
+  grid-template-columns: 30px minmax(0, 1fr);
+
+  column-gap: 15px;
+
+  padding-bottom: 45px;
+
+  margin-bottom: 45px;
+
+  border-bottom: 1px solid #e5e5e5;
+}
+
+
+/* =========================================================
+   PROJECT NUMBER
+   ========================================================= */
+
+.project-number {
+  padding-top: 3px;
+
+  font-size: 12px;
+
+  font-weight: 600;
+
+  color: #999999;
+
+  letter-spacing: 0.5px;
+}
+
+
+/* =========================================================
+   PROJECT CONTENT
+   ========================================================= */
+
+.project-content h3 {
+  margin: 0;
+
+  font-size: 22px;
+
+  font-weight: 650;
+
+  line-height: 1.35;
+
+  color: #222222;
+}
+
+
+/* =========================================================
+   PROJECT CATEGORY
+   ========================================================= */
+
+.project-category {
+  margin: 4px 0 12px 0;
+
+  font-size: 13px;
+
+  font-weight: 500;
+
+  color: #888888;
+}
+
+
+/* =========================================================
+   PROJECT DESCRIPTION
+   ========================================================= */
+
+.project-description {
+  max-width: 620px;
+
+  margin: 0 0 20px 0;
+
+  font-size: 14px;
+
+  line-height: 1.7;
+
+  color: #666666;
+}
+
+
+/* =========================================================
+   PROJECT IMAGE
+   ========================================================= */
+
+.project-image {
+  display: block;
+
+  width: 100%;
+
+  height: auto;
+
+  max-height: 500px;
+
+  object-fit: contain;
+
+  margin: 20px 0;
+
+  border: 1px solid #e5e5e5;
+}
+
+
+/* =========================================================
+   PROJECT TAGS
+   ========================================================= */
+
+.project-tags {
+  display: flex;
+
+  flex-wrap: wrap;
+
+  gap: 7px;
+
+  margin: 15px 0;
+}
+
+.project-tags span {
+  display: inline-block;
+
+  padding: 4px 9px;
+
+  border: 1px solid #dddddd;
+
+  border-radius: 4px;
+
+  background: #fafafa;
+
+  font-size: 11px;
+
+  line-height: 1.3;
+
+  color: #666666;
+}
+
+
+/* =========================================================
+   PROJECT LINK
+   ========================================================= */
+
+.project-link {
+  display: inline-flex;
+
+  align-items: center;
+
+  gap: 7px;
+
+  margin-top: 5px;
+
+  font-size: 13px;
+
+  font-weight: 600;
+
+  color: #333333;
+
+  text-decoration: none;
+}
+
+.project-link span {
+  font-size: 17px;
+
+  transition: transform 0.2s ease;
+}
+
+.project-link:hover {
+  color: #000000;
+}
+
+.project-link:hover span {
+  transform: translateX(4px);
+}
 
 /* =========================================================
    MOBILE
