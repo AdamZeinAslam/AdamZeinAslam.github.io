@@ -9,9 +9,8 @@ layout: default
        ========================= -->
 
   <div class="projects-header">
-    <p class="projects-title">Projects</p>
-  </div>
-
+  <h2 class="projects-title">Projects</h2>
+</div>
 
   <!-- =====================================================
        PROJECT 01
