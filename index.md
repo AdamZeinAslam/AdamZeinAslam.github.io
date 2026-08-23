@@ -23,7 +23,7 @@ layout: default
     </div>
 
     <div class="project-content">
-
+      <!-- [GANTI JUDUL PROYEK] Ubah teks di bawah ini untuk mengganti judul proyek -->
       <h3>Waste Image Classification</h3>
 
       <p class="project-category">
@@ -35,7 +35,7 @@ layout: default
         into three categories using deep learning and image
         augmentation.
       </p>
-
+      <!-- [GANTI GAMBAR PROYEK] Ganti URL 'src' di bawah dengan link gambar proyek Anda -->
       <img
         src="{{ '/assets/img/projects/Screenshot 2026-03-02 204757.png' | relative_url }}"
         alt="Waste Image Classification"
@@ -48,7 +48,7 @@ layout: default
         <span>Computer Vision</span>
         <span>Albumentations</span>
       </div>
-
+      <!-- [GANTI LINK PROYEK] Ganti '#' di bawah ini dengan link ke GitHub atau Colab proyek Anda -->
       <a href="#" class="project-link">
         View Project <span>→</span>
       </a>
@@ -69,7 +69,7 @@ layout: default
     </div>
 
     <div class="project-content">
-
+      <!-- [GANTI JUDUL PROYEK] -->
       <h3>Supply Chain Management & ERP</h3>
 
       <p class="project-category">
@@ -81,7 +81,7 @@ layout: default
         ERP technology to improve inventory management,
         business workflows, and operational efficiency.
       </p>
-
+      <!-- [GANTI GAMBAR PROYEK] Hapus div placeholder ini dan ganti dengan tag <img> seperti di Project 01 jika sudah ada gambar -->
       <div class="project-image-placeholder">
         Project Image
       </div>
@@ -92,7 +92,7 @@ layout: default
         <span>SQL</span>
         <span>Data Analysis</span>
       </div>
-
+      <!-- [GANTI LINK PROYEK] -->
       <a href="#" class="project-link">
         View Project <span>→</span>
       </a>
@@ -113,7 +113,7 @@ layout: default
     </div>
 
     <div class="project-content">
-
+      <!-- [GANTI JUDUL PROYEK] -->
       <h3>Financial Transaction Analytics</h3>
 
       <p class="project-category">
@@ -125,7 +125,7 @@ layout: default
         financial transaction patterns and identify potential
         anomalies.
       </p>
-
+      <!-- [GANTI GAMBAR PROYEK] Hapus div placeholder ini dan ganti dengan tag <img> seperti di Project 01 jika sudah ada gambar -->
       <div class="project-image-placeholder">
         Project Image
       </div>
