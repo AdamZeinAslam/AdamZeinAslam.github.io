@@ -36,15 +36,15 @@ body {
 
 .portfolio-container {
   width: 100%;
-  max-width: 1100px;
+  max-width: 950px;
 
   margin: 0 auto;
 
   display: grid;
 
-  grid-template-columns: 300px minmax(0, 1fr);
+  grid-template-columns: 250px minmax(0, 1fr);
 
-  column-gap: 70px;
+  column-gap: 50px;
 
   padding: 55px 30px;
 }
@@ -107,7 +107,7 @@ body {
    ========================================================= */
 
 .profile-description {
-  max-width: 285px;
+  max-width: 250px;
 
   margin: 0 0 24px 0;
 }
@@ -240,7 +240,7 @@ body {
    ========================================================= */
 
 .skills-text {
-  max-width: 285px;
+  max-width: 250px;
 
   margin: 0;
 
