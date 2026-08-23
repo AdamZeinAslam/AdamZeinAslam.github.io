@@ -398,7 +398,7 @@ body {
    * Small column for project number
    * so the number stays close to the title.
    */
-  grid-template-columns: 20px minmax(0, 1fr);
+  grid-template-columns: 26px minmax(0, 1fr);
 
   column-gap: 6px;
 
@@ -417,7 +417,7 @@ body {
 .project-number {
   padding-top: 4px;
 
-  font-size: 12px;
+  font-size: 16px;
 
   font-weight: 500;
 
@@ -587,7 +587,7 @@ body {
 
   font-weight: 600;
 
-  color: #444444;
+  color: #007bff;
 
   text-decoration: none;
 }
@@ -599,7 +599,7 @@ body {
 }
 
 .project-link:hover {
-  color: #222222;
+  color: #0056b3;
 }
 
 .project-link:hover span {
