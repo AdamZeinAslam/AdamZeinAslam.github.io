@@ -43,8 +43,8 @@ layout: default
       >
 
       <div class="project-tags">
-        <span>Python</span>
-        <span>PyTorch</span>
+        <span><img src="https://cdn.simpleicons.org/python/444444" alt="Python" class="tag-icon"> Python</span>
+        <span><img src="https://cdn.simpleicons.org/pytorch/444444" alt="PyTorch" class="tag-icon"> PyTorch</span>
         <span>Computer Vision</span>
         <span>Albumentations</span>
       </div>
@@ -87,7 +87,7 @@ layout: default
       </div>
 
       <div class="project-tags">
-        <span>Odoo</span>
+        <span><img src="https://cdn.simpleicons.org/odoo/444444" alt="Odoo" class="tag-icon"> Odoo</span>
         <span>ERP</span>
         <span>SQL</span>
         <span>Data Analysis</span>
@@ -131,8 +131,8 @@ layout: default
       </div>
 
       <div class="project-tags">
-        <span>Power BI</span>
-        <span>Excel</span>
+        <span><img src="https://cdn.simpleicons.org/powerbi/444444" alt="Power BI" class="tag-icon"> Power BI</span>
+        <span><img src="https://cdn.simpleicons.org/microsoftexcel/444444" alt="Excel" class="tag-icon"> Excel</span>
         <span>Data Analytics</span>
       </div>
 
