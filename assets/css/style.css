@@ -13,7 +13,9 @@ html {
 body {
   margin: 0;
 
+  /* [GANTI WARNA BACKGROUND] Ubah nilai #ffffff (putih) ke kode warna hex lain untuk background website */
   background: #ffffff;
+  /* [GANTI WARNA TEKS UTAMA] Ubah nilai #333333 untuk warna teks paragraf standar */
   color: #333333;
 
   font-family:
@@ -68,10 +70,11 @@ body {
 /* =========================================================
    PROFILE NAME
    ========================================================= */
-
+/* [GANTI JUDUL SIDEBAR (NAMA)] */
 .profile-name {
   margin: 0 0 16px 0;
 
+  /* Ubah font-size di bawah ini untuk memperbesar/memperkecil nama Anda */
   font-size: 28px;
 
   font-weight: 700;
@@ -80,6 +83,7 @@ body {
 
   letter-spacing: -0.5px;
 
+  /* Ubah color di bawah ini untuk mengganti warna nama Anda */
   color: #111111;
 }
 
@@ -375,16 +379,19 @@ body {
   padding: 0;
 }
 
+/* [GANTI UKURAN/WARNA TULISAN "Projects"] */
 .projects-section .projects-title {
   margin: 0 0 35px 0;
   padding: 0;
 
+  /* Ubah font-size di bawah ini untuk tulisan "Projects" */
   font-size: 28px;
   font-weight: 700;
   line-height: 1.3;
 
   letter-spacing: -0.3px;
 
+  /* Ubah color di bawah ini untuk mengganti warna judul "Projects" */
   color: #111111;
 }
 /* =========================================================
@@ -435,15 +442,18 @@ body {
   min-width: 0;
 }
 
+/* [GANTI JUDUL MASING-MASING PROYEK] */
 .project-content h3 {
   margin: 0;
 
+  /* Ubah font-size di bawah untuk memperbesar/memperkecil judul proyek (misal: "Waste Image Classification") */
   font-size: 24px;
 
   font-weight: 700;
 
   line-height: 1.35;
 
+  /* Ubah color di bawah untuk mengganti warna judul proyek */
   color: #111111;
 }
 
@@ -555,23 +565,28 @@ body {
   margin: 12px 0 16px 0;
 }
 
+/* [GANTI DESAIN KOTAK TAG (Python, PyTorch, dll)] */
 .project-tags span {
   display: inline-flex;
   align-items: center;
 
   padding: 5px 12px;
 
+  /* Ubah warna hex di bawah untuk mengganti warna garis tepi kotak tag */
   border: 1px solid #cccccc;
 
   border-radius: 6px;
 
+  /* Ubah warna hex di bawah untuk mengganti warna latar belakang (background) kotak tag */
   background: #f4f4f4;
 
+  /* Ubah ukuran tulisan di dalam tag */
   font-size: 12px;
   font-weight: 600;
 
   line-height: 1.3;
 
+  /* Ubah warna tulisan di dalam tag */
   color: #333333;
 }
 
@@ -586,6 +601,7 @@ body {
    PROJECT LINK
    ========================================================= */
 
+/* [GANTI WARNA LINK "View Project"] */
 .project-link {
   display: inline-flex;
 
@@ -599,6 +615,7 @@ body {
 
   font-weight: 600;
 
+  /* Ubah warna di bawah untuk mengganti warna teks "View Project" */
   color: #007bff;
 
   text-decoration: none;
