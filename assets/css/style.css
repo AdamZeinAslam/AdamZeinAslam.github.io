@@ -371,7 +371,7 @@ body {
    ========================================================= */
 
 .projects-section .projects-header {
-  margin: 4px 0 35px 0;
+  margin: -4px 0 35px 0;
   padding: 0;
 }
 
